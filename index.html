@@ -20,7 +20,11 @@
 	</div>
 	<div class="video-wrapper js-video-wrapper">
 		<div class="video-responsive">
-			<video class="video js-video" rc="http://upload.wikimedia.org/wikipedia/commons/7/79/Big_Buck_Bunny_small.ogv" controls="false">
+			<video class="video js-video" muted>
+				<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.webm" type="video/webm">
+				<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type="video/mp4">
+				<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.ogg" type="video/ogg">
+				Your browser does not support HTML5 video.
 			</video>
 
 			<canvas class="canvas js-canvas"></canvas>
