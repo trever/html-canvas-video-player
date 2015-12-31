@@ -2,7 +2,7 @@ var CanvasVideoPlayer = function(options) {
 	var i;
 
 	this.options = {
-		framesPerSecond: 25,
+		framesPerSecond: 60,
 		hideVideo: true,
 	};
 
